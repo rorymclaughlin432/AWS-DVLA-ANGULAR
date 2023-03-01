@@ -1,0 +1,13 @@
+<div class="content" role="main">
+  
+  <span> DVLA Vehicle Enquiry Service </span>
+  
+  <div class="content" role="main">
+    <input type="text" [(ngModel)]="inputValue">
+    <button type="button" class="add-button" (click)="onSubmit()"> Check Vehicle Details </button>
+    <h2> Response </h2>
+  </div>
+
+  <span> {{ postResponse }} </span>
+
+</div>
